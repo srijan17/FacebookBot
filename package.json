@@ -1,0 +1,21 @@
+{
+  "name": "wit-test",
+  "version": "1.0.0",
+  "description": "","engines": {
+    "node": "6.9.2"
+  },
+  "main": "index.js",
+  "scripts": {"prebuild": "npm run build:clean",
+    "heroku-postbuild": "npm run build",
+  "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "node-wit": "^4.2.0",
+    "request": "^2.79.0",
+    "wit": "^1.3.4"
+  }
+}
